@@ -1,0 +1,56 @@
+header{
+    width: 37.5rem;
+    height: 25.75rem;
+    background: url("../images/headerBg.png") center no-repeat;
+    background-size: cover;
+}
+section{
+    box-sizing: border-box;
+    padding-top: 7.5rem;
+    width: 37.5rem;
+    height: 26.2rem;
+    background: url("../images/middleBg.png") center no-repeat;
+    background-size: cover;
+}
+section .text p{
+    margin-left: 11.5rem;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    color: #333333;
+}
+section .text p span{
+    font-size: 2.1rem;
+    color: #ff4b24;
+}
+section .text p i{
+    font-style: normal;
+    color: #ff4b24;
+}
+section .text p:nth-child(1) i{
+    font-size: 1.3rem;
+}
+section .text p:nth-child(2) i{
+    font-size: 1.6rem;
+}
+section .button{
+    margin: 2rem auto;
+    width: 23.55rem;
+    height: 3.95rem;
+    background: url("../images/button.png") center no-repeat;
+    background-size: cover;
+}
+footer{
+    box-sizing: border-box;
+    padding: 8rem 4.1rem 0 6.2rem;
+    width: 37.5rem;
+    height: 101.5rem;
+    background: url("../images/footerBg.png") center no-repeat;
+    background-size: cover;
+}
+footer p{
+    margin-bottom: 0.6rem;
+    font-size: 1.3rem;
+    text-indent: -2rem;
+    line-height: 2rem;
+    color: #666666;
+}
